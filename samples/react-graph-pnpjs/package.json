@@ -13,7 +13,7 @@
   "dependencies": {
     "@microsoft/microsoft-graph-types": "^1.5.0",
     "@microsoft/sp-core-library": "1.7.1",
-    "@microsoft/sp-lodash-subset": "1.7.1",
+    "@microsoft/sp-lodash-subset": "1.18.2",
     "@microsoft/sp-office-ui-fabric-core": "1.7.1",
     "@microsoft/sp-webpart-base": "1.7.1",
     "@pnp/common": "^1.2.7",
