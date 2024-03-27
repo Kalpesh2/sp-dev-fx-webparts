@@ -20,7 +20,7 @@
     "@pnp/odata": "1.2.7",
     "@pnp/sp": "1.2.7",
     "@types/es6-promise": "0.0.33",
-    "@types/react": "16.7.22",
+    "@types/react": "16.14.57",
     "@types/react-dom": "16.8.0",
     "@types/webpack-env": "1.13.1",
     "office-ui-fabric-react": "6.143.0",
