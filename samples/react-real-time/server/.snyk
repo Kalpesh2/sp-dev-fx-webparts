@@ -1,0 +1,85 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - azure > azure-graph > ms-rest > request > hawk > hoek:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-graph > ms-rest > request > hawk > hoek
+    - azure > azure-graph > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-graph > ms-rest > request > hawk > boom > hoek
+    - azure > azure-graph > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-graph > ms-rest > request > hawk > sntp > hoek
+    - azure > azure-graph > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-graph > ms-rest-azure > ms-rest > request > hawk > hoek
+    - azure > azure-graph > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-graph > ms-rest > request > hawk > cryptiles > boom >
+          hoek
+    - azure > azure-graph > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-graph > ms-rest-azure > ms-rest > request > hawk > boom
+          > hoek
+    - azure > azure-graph > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-graph > ms-rest-azure > ms-rest > request > hawk > sntp
+          > hoek
+    - azure > azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-graph > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > hoek
+    - azure > azure-graph > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-graph > ms-rest-azure > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-graph > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > boom > hoek
+    - azure > azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-graph > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > sntp > hoek
+    - azure > azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-graph > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > cryptiles > boom > hoek
+  'npm:tunnel-agent:20170305':
+    - azure > azure-graph > ms-rest > request > tunnel-agent:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: azure > azure-graph > ms-rest > request > tunnel-agent
+    - azure > azure-graph > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: azure > azure-graph > ms-rest-azure > ms-rest > request > tunnel-agent
+    - azure > azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2024-04-07T20:26:46.276Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure > azure-graph > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > tunnel-agent
