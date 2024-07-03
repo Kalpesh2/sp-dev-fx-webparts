@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@microsoft/sp-core-library": "~1.4.1",
-    "@microsoft/sp-webpart-base": "~1.4.1",
+    "@microsoft/sp-webpart-base": "~1.12.1",
     "@microsoft/sp-office-ui-fabric-core": "~1.4.1",
     "@types/chart.js": "0.0.14",
     "@types/react": "0.14.46",
