@@ -7,11 +7,11 @@
   },
   "dependencies": {
     "@microsoft/sp-core-library": "1.6.0",
-    "@microsoft/sp-webpart-base": "1.6.0",
+    "@microsoft/sp-webpart-base": "1.8.0",
     "@types/fullcalendar": "^2.7.38",
     "@types/moment": "^2.13.0",
     "@types/webpack-env": ">=1.12.1 <1.14.0",
-    "fullcalendar": "3.9.0",
+    "fullcalendar": "3.10.0",
     "sweetalert2": "^6.4.2"
   },
   "devDependencies": {
