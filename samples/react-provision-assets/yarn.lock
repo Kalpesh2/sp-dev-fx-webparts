@@ -15,6 +15,13 @@
     typescript "~2.2.2"
     z-schema "~3.17.0"
 
+"@microsoft/decorators@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/decorators/-/decorators-1.8.2.tgz#a96b618902c2e993d8f722e2d91aed61b50c3387"
+  integrity sha512-1tWDtxh6Mks5JjqI2yRPBD3ZaOT1DhDh6+Z/Lj1LWA+OU4CnIkl2P3uGkiKhchXlgHBeKUidFGRVrv0parfTRQ==
+  dependencies:
+    tslib "~1.9.3"
+
 "@microsoft/decorators@~1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@microsoft/decorators/-/decorators-1.1.0.tgz#fd14e6a50d038782e8d450bb9bec165a6766d0c3"
@@ -159,6 +166,16 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.4.0.tgz#1830bddbcf101712ca260217e55ab744a52041dc"
 
+"@microsoft/load-themed-styles@1.8.62":
+  version "1.8.62"
+  resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.8.62.tgz#36f5349c922312b12d14f86b286e2bb7e4b7b112"
+  integrity sha512-T9yplfIBWV6R5n0y9TuAnF8og7lUTFRqiOD/F8y3J4ziAkg3RD2Gih7p0TdTD4vmqbFJOpuuXMNMpERFFMgvvg==
+
+"@microsoft/load-themed-styles@^1.7.13":
+  version "1.10.295"
+  resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.10.295.tgz#d3c8d7ab186f422727ba112d6ebe5fe8e41051d9"
+  integrity sha512-W+IzEBw8a6LOOfRJM02dTT7BDZijxm+Z7lhtOAz1+y9vQm1Kdz9jlAO+qCEKsfxtUOmKilW8DIRqFw2aUgKeGg==
+
 "@microsoft/loader-cased-file@~1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@microsoft/loader-cased-file/-/loader-cased-file-1.0.1.tgz#f3d24dc71b4ed6512de88faed00c827f97a15a16"
@@ -184,6 +201,27 @@
     loader-utils "~1.1.0"
     lodash "~4.15.0"
     uglify-js "~2.8.22"
+
+"@microsoft/microsoft-graph-client@~1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/microsoft-graph-client/-/microsoft-graph-client-1.1.0.tgz#d6b91cc05de7920f01b51d3ce3d5faa8f7afd959"
+  integrity sha512-sDgchKZz1l3QJVNdkE1P1KpwTjupNt1mS9h1T0CiP+ayMN7IeFKfElB8IYtxFplNalZTmEq+iqoQFqUVpVMLfQ==
+  dependencies:
+    es6-promise "^4.1.0"
+    isomorphic-fetch "^2.2.1"
+
+"@microsoft/office-ui-fabric-react-bundle@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/office-ui-fabric-react-bundle/-/office-ui-fabric-react-bundle-1.8.2.tgz#4e64e7b7d84dd40707826df68bf02d13818b148d"
+  integrity sha512-KQ07naCdJXW6nquDDEP/ydb8SHoFj1Kcsldj5qREcdJIZfUkrlxXRpFlgJoVKdPF3sYomDSssTCQf8pmy0uicA==
+  dependencies:
+    "@types/react" "16.4.2"
+    "@types/webpack-env" "1.13.1"
+    "@uifabric/icons" "6.4.0"
+    office-ui-fabric-react "6.143.0"
+    react "16.7.0"
+    react-dom "16.7.0"
+    tslib "~1.9.3"
 
 "@microsoft/office-ui-fabric-react-bundle@~1.1.0":
   version "1.1.0"
@@ -344,6 +382,23 @@
     react-dom "15.4.2"
     whatwg-fetch "0.11.0"
 
+"@microsoft/sp-component-base@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-component-base/-/sp-component-base-1.8.2.tgz#70a188c380b5844126d90ac42e8c241f846a921d"
+  integrity sha512-8v7YOYgolyMuBzFrdMvLIalXTpBt4REvy//csoAsDudshjKI0trBDLcjaryjnshz33bzcLvaZArsfRXl3C4pEw==
+  dependencies:
+    "@microsoft/decorators" "1.8.2"
+    "@microsoft/sp-core-library" "1.8.2"
+    "@microsoft/sp-diagnostics" "1.8.2"
+    "@microsoft/sp-dynamic-data" "1.8.2"
+    "@microsoft/sp-http" "1.8.2"
+    "@microsoft/sp-loader" "1.8.2"
+    "@microsoft/sp-lodash-subset" "1.8.2"
+    "@microsoft/sp-module-interfaces" "1.8.2"
+    "@microsoft/sp-page-context" "1.8.2"
+    "@types/es6-promise" "0.0.33"
+    "@types/webpack-env" "1.13.1"
+
 "@microsoft/sp-component-base@~1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-component-base/-/sp-component-base-1.1.0.tgz#218c76bdc6ace9f81e320103b4f05e0b21d92a77"
@@ -357,6 +412,16 @@
     "@types/es6-promise" "0.0.32"
     "@types/webpack-env" "1.13.0"
 
+"@microsoft/sp-core-library@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-core-library/-/sp-core-library-1.8.2.tgz#f8823962d3e890f2f1493b5c65e345003e7b1d48"
+  integrity sha512-RW06oLu7sdMjq6vNtTFhvsQ7R7Ix5oJZqefC2J7p23yBWNNatmcwaBqM01SVdAsHd1coKwq3eU/0YMhzuaxKQw==
+  dependencies:
+    "@microsoft/sp-lodash-subset" "1.8.2"
+    "@microsoft/sp-module-interfaces" "1.8.2"
+    "@types/es6-promise" "0.0.33"
+    "@types/webpack-env" "1.13.1"
+
 "@microsoft/sp-core-library@~1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-core-library/-/sp-core-library-1.1.0.tgz#9197a8dc8d2c502fd087cc7e70e1540a723e8cfe"
@@ -366,6 +431,36 @@
     "@types/es6-collections" "0.5.29"
     "@types/webpack-env" "1.13.0"
     es6-collections "0.5.6"
+
+"@microsoft/sp-core-library@~1.3.0":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-core-library/-/sp-core-library-1.3.4.tgz#d915dacd4e473896e3a0d7e8dd34f4475da3e649"
+  integrity sha512-WNdDYZaLd2o8a5uwWmzOsICKYLrpq8W4O3qFdDD4iivcbzSlH9F4qqeU4KmYaG5uoxnH0znHkUOnYR/4VW4w9A==
+  dependencies:
+    "@microsoft/sp-lodash-subset" "~1.3.4"
+    "@microsoft/sp-module-interfaces" "~1.3.4"
+    "@types/es6-collections" "0.5.29"
+    "@types/webpack-env" "1.13.0"
+    es6-collections "0.5.6"
+
+"@microsoft/sp-diagnostics@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-diagnostics/-/sp-diagnostics-1.8.2.tgz#ec94ae6af09efa905766ee5cd0ed89e315e931f6"
+  integrity sha512-l7qRUQduWG9waFgIP08E922PY+ea7xa2HZiEUDA6pdSOXbci2R9uo3fgL2Un5e63ZPKa5E1/0jtm1+xtgQkutA==
+  dependencies:
+    "@microsoft/sp-core-library" "1.8.2"
+    "@microsoft/sp-lodash-subset" "1.8.2"
+
+"@microsoft/sp-dynamic-data@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-dynamic-data/-/sp-dynamic-data-1.8.2.tgz#38201fd14b9a3167bafad8233ee193099d35f2ce"
+  integrity sha512-oC4220aH1ooU+VU9ADgnEeZ6YmWZfqvFaFG5vd2EL3jzTYiIxGLvBZOfDGKnsgmaDoWC7lXIYncoG0Os3rh/6w==
+  dependencies:
+    "@microsoft/sp-core-library" "1.8.2"
+    "@microsoft/sp-diagnostics" "1.8.2"
+    "@microsoft/sp-lodash-subset" "1.8.2"
+    "@types/webpack-env" "1.13.1"
+    tslib "~1.9.3"
 
 "@microsoft/sp-extension-base@~0.1.1":
   version "0.1.1"
@@ -382,6 +477,18 @@
     "@types/es6-promise" "0.0.32"
     "@types/webpack-env" "1.13.0"
 
+"@microsoft/sp-http@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-http/-/sp-http-1.8.2.tgz#4151936861e3b7d607ac81e895d20d0ad5189c36"
+  integrity sha512-lTVQ6oI1yjc4M0yeyQHrivy+6SNp1q4xUQ3skBWY25b55zPIJHH3m/nOvHy2q44b9eWurdjq7bS1T19lrf7+LQ==
+  dependencies:
+    "@microsoft/microsoft-graph-client" "~1.1.0"
+    "@microsoft/sp-core-library" "1.8.2"
+    "@microsoft/sp-diagnostics" "1.8.2"
+    "@types/adal-angular" "1.0.1"
+    adal-angular "1.0.16"
+    tslib "~1.9.3"
+
 "@microsoft/sp-http@~1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-http/-/sp-http-1.1.1.tgz#82fb888993ad0e95a65c296ca4e930872c1dc173"
@@ -392,6 +499,34 @@
     "@types/es6-collections" "0.5.29"
     "@types/es6-promise" "0.0.32"
     "@types/webpack-env" "1.13.0"
+
+"@microsoft/sp-loader@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-loader/-/sp-loader-1.8.2.tgz#259aaf893249c268cdc5f5769d1cd86aad2f788c"
+  integrity sha512-Q1LKFV8jOqWV6451dpDFwyaMK2Hw4X+tcnX5hFqltL1O1r/rD2P7PJkLi8lpL8sqWJ9JhTDDY8+pWD1YYC6W6A==
+  dependencies:
+    "@microsoft/office-ui-fabric-react-bundle" "1.8.2"
+    "@microsoft/sp-core-library" "1.8.2"
+    "@microsoft/sp-diagnostics" "1.8.2"
+    "@microsoft/sp-dynamic-data" "1.8.2"
+    "@microsoft/sp-http" "1.8.2"
+    "@microsoft/sp-lodash-subset" "1.8.2"
+    "@microsoft/sp-module-interfaces" "1.8.2"
+    "@microsoft/sp-odata-types" "1.8.2"
+    "@microsoft/sp-page-context" "1.8.2"
+    "@microsoft/sp-polyfills" "1.8.2"
+    "@types/es6-promise" "0.0.33"
+    "@types/node" "8.5.8"
+    "@types/react" "16.4.2"
+    "@types/react-dom" "16.0.5"
+    "@types/requirejs" "2.1.29"
+    "@types/webpack-env" "1.13.1"
+    "@uifabric/utilities" "6.29.4"
+    office-ui-fabric-react "6.143.0"
+    react "16.7.0"
+    react-dom "16.7.0"
+    requirejs "2.1.20"
+    tslib "~1.9.3"
 
 "@microsoft/sp-loader@~1.1.0", "@microsoft/sp-loader@~1.1.1":
   version "1.1.1"
@@ -417,6 +552,15 @@
     requirejs "2.1.20"
     whatwg-fetch "0.11.0"
 
+"@microsoft/sp-lodash-subset@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-lodash-subset/-/sp-lodash-subset-1.8.2.tgz#b774a2a0b75f5daa309ea1d1ff712232b6149129"
+  integrity sha512-PTJuBAqqgxJ6xo8OQWS4sTPOyzgXzPyT60BTHyZJd8ozDoeo3lrTssmXgOaAygMUE+VglyoH7YRNAv+fg/tOgQ==
+  dependencies:
+    "@types/lodash" "4.14.117"
+    "@types/webpack-env" "1.13.1"
+    tslib "~1.9.3"
+
 "@microsoft/sp-lodash-subset@~1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-lodash-subset/-/sp-lodash-subset-1.1.0.tgz#0f28d306c674135cf4d3f7668f844921facc97d6"
@@ -424,6 +568,24 @@
     "@types/lodash" "4.14.52"
     "@types/webpack-env" "1.13.0"
     lodash "~4.15.0"
+
+"@microsoft/sp-lodash-subset@~1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-lodash-subset/-/sp-lodash-subset-1.3.4.tgz#ee906448fdedc227a7b2a12ee21dbf3336681578"
+  integrity sha512-ofbcbqY18qcnQqzgTdlGDSRzUyqfEm4RzLJwykrwzocD+g81dsSkhAcyvRh0JSwnkOYixHVgLOOMlUFToUCLlw==
+  dependencies:
+    "@types/lodash" "4.14.52"
+    "@types/webpack-env" "1.13.0"
+    lodash "~4.15.0"
+
+"@microsoft/sp-module-interfaces@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-module-interfaces/-/sp-module-interfaces-1.8.2.tgz#cd2d24f9420509057b9017c927984de615b43167"
+  integrity sha512-vuwmEHZ1dP9Q5/irqpTJynkHmyxP2vfn05Bdehzd/ktlvf4CtUjgVIRXuOCPufGe5fvr96IMKLlhOzifS5sUBw==
+  dependencies:
+    "@types/node" "8.5.8"
+    "@types/z-schema" "3.16.31"
+    z-schema "~3.18.3"
 
 "@microsoft/sp-module-interfaces@~1.1.0":
   version "1.1.0"
@@ -433,9 +595,39 @@
     "@types/z-schema" "3.16.20-alpha"
     z-schema "~3.17.0"
 
+"@microsoft/sp-module-interfaces@~1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-module-interfaces/-/sp-module-interfaces-1.3.4.tgz#6122237d3ccf20c169b49b9c8ada1ec39519d959"
+  integrity sha512-+zdgNQIju5PFRtKq9kTQzDRa7JxA0nrpFC643VKdw49xukGI0S2RGRaz0JB2MjY6ZwV3aQY1zAj59BzEYdYOKQ==
+  dependencies:
+    "@types/node" "6.0.64"
+    "@types/z-schema" "3.16.31"
+    z-schema "~3.18.3"
+
+"@microsoft/sp-odata-types@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-odata-types/-/sp-odata-types-1.8.2.tgz#e32092b48a450b42733374f96f33b6a9a1185460"
+  integrity sha512-reRLI23NHfUwJAcQmTGl3z80ncqRlW6YSs8OoZFkIEsYsnuv7P+xwJnhH+4im8ywJ+3ESEOZj6ZtdrvUM9PcmA==
+  dependencies:
+    tslib "~1.9.3"
+
 "@microsoft/sp-odata-types@~1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-odata-types/-/sp-odata-types-1.1.0.tgz#9b4f7d4b1ebcef75050cd97c9b34c4697ff044b6"
+
+"@microsoft/sp-page-context@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-page-context/-/sp-page-context-1.8.2.tgz#fb26e25ce5cce0ef32a511b70193a42388056cdf"
+  integrity sha512-TkVV/h5XEJUfGH/80y0YPD3jWEli8V3Z+Xsnub0ZjC5lU492J1JLFDeNMqIlG25vhIeL+V+Le9hxU9cTNW4hsA==
+  dependencies:
+    "@microsoft/sp-core-library" "1.8.2"
+    "@microsoft/sp-diagnostics" "1.8.2"
+    "@microsoft/sp-dynamic-data" "1.8.2"
+    "@microsoft/sp-lodash-subset" "1.8.2"
+    "@microsoft/sp-odata-types" "1.8.2"
+    "@types/es6-promise" "0.0.33"
+    "@types/webpack-env" "1.13.1"
+    tslib "~1.9.3"
 
 "@microsoft/sp-page-context@~1.1.0":
   version "1.1.0"
@@ -448,6 +640,18 @@
     "@types/es6-promise" "0.0.32"
     "@types/webpack-env" "1.13.0"
 
+"@microsoft/sp-polyfills@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-polyfills/-/sp-polyfills-1.8.2.tgz#719b21b4c0a2b36a95687e4cef7bb4dcedc877ab"
+  integrity sha512-0Zl7ipeFws2PJYbtVQ0UMWzBExZuH5qQZuzf25KXmYsQd8tgMNBI3C1OCnTqbTYVx8LhdJtlf5y5D1mYLV4Raw==
+  dependencies:
+    "@types/webpack-env" "1.13.1"
+    es6-collections "0.5.6"
+    es6-promise "4.1.1"
+    tslib "~1.9.3"
+    whatwg-fetch "2.0.3"
+    whatwg-url "4.7.1"
+
 "@microsoft/sp-polyfills@~1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-polyfills/-/sp-polyfills-1.1.0.tgz#a056deaccb9340b3b77a0d9095810b4f0fe600ea"
@@ -459,6 +663,27 @@
     whatwg-fetch "0.11.0"
     whatwg-url "~4.7.0"
 
+"@microsoft/sp-property-pane@1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-property-pane/-/sp-property-pane-1.8.2.tgz#f8b1b0b566630d51962286f1ac47947d21822971"
+  integrity sha512-XGHxlx4vyQIA9TeeYB38OQcHQ+ehn/SWVMS6HM+hJmjdCRWFjHIpCYamvuWyrL8hkOFLvvv7w8mPt23aLjSTag==
+  dependencies:
+    "@microsoft/decorators" "1.8.2"
+    "@microsoft/office-ui-fabric-react-bundle" "1.8.2"
+    "@microsoft/sp-component-base" "1.8.2"
+    "@microsoft/sp-core-library" "1.8.2"
+    "@microsoft/sp-diagnostics" "1.8.2"
+    "@microsoft/sp-dynamic-data" "1.8.2"
+    "@microsoft/sp-lodash-subset" "1.8.2"
+    "@types/es6-promise" "0.0.33"
+    "@types/react" "16.4.2"
+    "@types/react-dom" "16.0.5"
+    "@types/webpack-env" "1.13.1"
+    office-ui-fabric-react "6.143.0"
+    react "16.7.0"
+    react-dom "16.7.0"
+    tslib "~1.9.3"
+
 "@microsoft/sp-tslint-rules@~1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-tslint-rules/-/sp-tslint-rules-1.1.0.tgz#b7420a10ed285e9f91c8dfbf47974391d2624669"
@@ -468,7 +693,7 @@
     tslint "~4.0.2"
     tslint-microsoft-contrib "4.0.0"
 
-"@microsoft/sp-webpart-base@~1.1.0", "@microsoft/sp-webpart-base@~1.1.1":
+"@microsoft/sp-webpart-base@~1.1.0":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-webpart-base/-/sp-webpart-base-1.1.1.tgz#f7ad1a8f65f067b205ff4e5733c1c3858fcb0f05"
   dependencies:
@@ -492,6 +717,29 @@
     office-ui-fabric-react "2.31.0"
     react "15.4.2"
     react-dom "15.4.2"
+
+"@microsoft/sp-webpart-base@~1.8.0":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-webpart-base/-/sp-webpart-base-1.8.2.tgz#c74ad79af677ab961c77a8cf9d9e84d1c0d330bf"
+  integrity sha512-6dj0pd1iNHsxyRG4+ORyItVd/lqbSuXi473kO2nuOzdHW+LqWwriXq5qaWq2tJ9eEJRu9J+ONqhU4rEL99GdMg==
+  dependencies:
+    "@microsoft/decorators" "1.8.2"
+    "@microsoft/load-themed-styles" "1.8.62"
+    "@microsoft/sp-component-base" "1.8.2"
+    "@microsoft/sp-core-library" "1.8.2"
+    "@microsoft/sp-diagnostics" "1.8.2"
+    "@microsoft/sp-dynamic-data" "1.8.2"
+    "@microsoft/sp-http" "1.8.2"
+    "@microsoft/sp-loader" "1.8.2"
+    "@microsoft/sp-lodash-subset" "1.8.2"
+    "@microsoft/sp-module-interfaces" "1.8.2"
+    "@microsoft/sp-page-context" "1.8.2"
+    "@microsoft/sp-property-pane" "1.8.2"
+    "@microsoft/teams-js" "1.4.1"
+    "@types/es6-promise" "0.0.33"
+    "@types/webpack-env" "1.13.1"
+    office-ui-fabric-react "6.143.0"
+    tslib "~1.9.3"
 
 "@microsoft/sp-webpart-workbench@~1.1.0":
   version "1.1.0"
@@ -523,6 +771,16 @@
   dependencies:
     "@types/node" "6.0.64"
     colors "~1.1.2"
+
+"@microsoft/teams-js@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@microsoft/teams-js/-/teams-js-1.4.1.tgz#a34634764da11dc7afc1656a4d1badbbd4005325"
+  integrity sha512-0BuWgUrZvZ0X98roHTWQVtnjlw22DWJBFW7LCqKS7Q/0Zu19GAWNL/mJoVJRRujVHUbEW+QU0qwJK6KqitUcsw==
+
+"@types/adal-angular@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@types/adal-angular/-/adal-angular-1.0.1.tgz#424822e2e17a6c185f33ef80b1208f035e52a735"
+  integrity sha512-2sRGxJYrluhvIz8ae98i5k5woe9Fics4dMFHTcNfY2xAkj5QGZor+sfZzlgM58Fpw7Kklau9Gn6OhgJP25dKug==
 
 "@types/assertion-error@1.0.30":
   version "1.0.30"
@@ -561,6 +819,11 @@
 "@types/es6-promise@0.0.32":
   version "0.0.32"
   resolved "https://registry.yarnpkg.com/@types/es6-promise/-/es6-promise-0.0.32.tgz#3bcf44fb1e429f3df76188c8c6d874463ba371fd"
+
+"@types/es6-promise@0.0.33":
+  version "0.0.33"
+  resolved "https://registry.yarnpkg.com/@types/es6-promise/-/es6-promise-0.0.33.tgz#280a707e62b1b6bef1a86cc0861ec63cd06c7ff3"
+  integrity sha512-HKJFVLCGrWQ/1unEw8JdaTxu6n3EUxmwTxJ6D0O1x0gD8joCsgoTWxEgevb7fp2XIogNjof3KEd+3bJoGne/nw==
 
 "@types/express-serve-static-core@*":
   version "4.0.48"
@@ -625,6 +888,11 @@
     "@types/log4js" "*"
     "@types/node" "*"
 
+"@types/lodash@4.14.117":
+  version "4.14.117"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.117.tgz#695a7f514182771a1e0f4345d189052ee33c8778"
+  integrity sha512-xyf2m6tRbz8qQKcxYZa7PA4SllYcay+eh25DN3jmNYY6gSTL7Htc/bttVdkqj2wfJGbeWlQiX8pIyJpKU+tubw==
+
 "@types/lodash@4.14.52":
   version "4.14.52"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.52.tgz#de5c7ab14da1289733233c9b0ec6f9e377db90f5"
@@ -677,6 +945,11 @@
   version "6.0.62"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.62.tgz#85222c077b54f25b57417bb708b9f877bda37f89"
 
+"@types/node@8.5.8":
+  version "8.5.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.5.8.tgz#92509422653f10e9c0ac18d87e0610b39f9821c7"
+  integrity sha512-8KmlRxwbKZfjUHFIt3q8TF5S2B+/E5BaAoo/3mgc5h6FJzqxXkCK/VMetO+IRDtwtU6HUvovHMBn+XRj7SV9Qg==
+
 "@types/orchestrator@*", "@types/orchestrator@0.0.30":
   version "0.0.30"
   resolved "https://registry.yarnpkg.com/@types/orchestrator/-/orchestrator-0.0.30.tgz#dcdda8d647b568b7b1e34178cb1f0b44ac9a98e5"
@@ -711,9 +984,24 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-dom@16.0.5":
+  version "16.0.5"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-16.0.5.tgz#a757457662e3819409229e8f86795ff37b371f96"
+  integrity sha512-ony2hEYlGXCLWNAWWgbsHR7qVvDbeMRFc5b43+7dhj3n+zXzxz81HV9Yjpc3JD8vLCiwYoSLqFCI6bD0+0zG2Q==
+  dependencies:
+    "@types/node" "*"
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@0.14.46":
   version "0.14.46"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-0.14.46.tgz#565d2b8561a39a55ccbd6c90352c52ae75ed2862"
+
+"@types/react@16.4.2":
+  version "16.4.2"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.4.2.tgz#f1a9cf1ee85221530def2ac26aee20f910a9dac8"
+  integrity sha512-oVcVteCDNiVc/fkDjowRfAZQDEOR76j3CJ3FvwXNvfV6zJguhghy1lMgpAzYox+9AZsWch+JPV6Imml3wvIUeg==
+  dependencies:
+    csstype "^2.2.0"
 
 "@types/requirejs@2.1.29":
   version "2.1.29"
@@ -770,6 +1058,11 @@
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.13.0.tgz#3044381647e11ee973c5af2e925323930f691d80"
 
+"@types/webpack-env@1.13.1":
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/@types/webpack-env/-/webpack-env-1.13.1.tgz#b45c222e24301bd006e3edfc762cc6b51bda236a"
+  integrity sha512-oHyg0NssP2RCpCvE35hhbSqMJRsc5lSW+GFe+Vc65JL+kHII1VMYM+0KeV/z4utFuUqPoQRmq8KMMp7ba0dj6Q==
+
 "@types/webpack-stream@3.2.5":
   version "3.2.5"
   resolved "https://registry.yarnpkg.com/@types/webpack-stream/-/webpack-stream-3.2.5.tgz#8b0345379182197fb2da9aea0a930ace00d1909b"
@@ -801,9 +1094,83 @@
   version "3.16.31"
   resolved "https://registry.yarnpkg.com/@types/z-schema/-/z-schema-3.16.31.tgz#2eb1d00a5e4ec3fa58c76afde12e182b66dc5c1c"
 
+"@uifabric/foundation@>=0.7.1 <1.0.0":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@uifabric/foundation/-/foundation-0.8.3.tgz#46fc211deb1407436695d0e069d1975073f9e9d3"
+  integrity sha512-r3WhRj7Out8QAOe50BGA36R8zgRPy0D0GNPuwFK9BB9oIidf91ycj7/miY8U0TZRZi5fB3Kg+dy/uxSDfgC6Og==
+  dependencies:
+    "@uifabric/set-version" "^1.1.3"
+    "@uifabric/styling" "^6.50.7"
+    "@uifabric/utilities" "^6.41.7"
+    tslib "^1.7.1"
+
+"@uifabric/icons@6.4.0":
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@uifabric/icons/-/icons-6.4.0.tgz#ede79049bebef5f3c44c8d0ec4f460745da324b0"
+  integrity sha512-pbKu3OnWaRIeDqMFhicDrrcqicxNqoHpJpknZR9N2xxoPnYMnt2ZOhBNnAxoVVcxHlWkFNg0rvFrOAQGn+S5/Q==
+  dependencies:
+    "@uifabric/set-version" ">=1.1.3 <2.0.0"
+    "@uifabric/styling" ">=6.41.0 <7.0.0"
+    tslib "^1.7.1"
+
+"@uifabric/icons@>=6.4.0 <7.0.0":
+  version "6.5.5"
+  resolved "https://registry.yarnpkg.com/@uifabric/icons/-/icons-6.5.5.tgz#5004e037295bcff0768b718a07d0bbd831c1d3a6"
+  integrity sha512-cGjzdpT0jzQ2RJvzlCVTrewaHCi4rb+ZNL2LWoceMi+5h196Y32qJwKMsc0ggR6u5CjMrzBiAxUFNppBSCutdA==
+  dependencies:
+    "@uifabric/set-version" "^1.1.3"
+    "@uifabric/styling" "^6.50.7"
+    tslib "^1.7.1"
+
+"@uifabric/merge-styles@>=6.15.2 <7.0.0", "@uifabric/merge-styles@^6.19.4":
+  version "6.19.4"
+  resolved "https://registry.yarnpkg.com/@uifabric/merge-styles/-/merge-styles-6.19.4.tgz#986a068a6109d699831d3adedcf286a0e042cb58"
+  integrity sha512-bjQdDHxmRIZVPwL//MtErODhEfcRJ2y+zJXoIWNh3T8JfAepeRDdoJ/pGNnnyJxA/AHMtlWt0IgMaz150/nfAA==
+  dependencies:
+    "@uifabric/set-version" "^1.1.3"
+    tslib "^1.7.1"
+
+"@uifabric/set-version@>=1.1.3 <2.0.0", "@uifabric/set-version@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@uifabric/set-version/-/set-version-1.1.3.tgz#8d1137df1406f38828e597e81122077a16c8da8b"
+  integrity sha512-IYpwVIuN7MJOeiWzZzr9AmFSvA5zc6gJn4fNHtEFIQnNB8WVWIcYrvx8Tbf7wWj9MvhdHYp70F054zZlHbL/Ag==
+  dependencies:
+    tslib "^1.7.1"
+
+"@uifabric/styling@>=6.41.0 <7.0.0", "@uifabric/styling@^6.50.7":
+  version "6.50.7"
+  resolved "https://registry.yarnpkg.com/@uifabric/styling/-/styling-6.50.7.tgz#a07c6c88b5b50a5c9dc603b33d76b34ad6fcb507"
+  integrity sha512-F2aBiB30ZiFxlZzy5hzLXODWOl6jySvPFAsoaTofk37xucHiunBLZYjX6WkfZrCWiyGPva+DLssNcwly9ZHVjg==
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.7.13"
+    "@uifabric/merge-styles" "^6.19.4"
+    "@uifabric/set-version" "^1.1.3"
+    "@uifabric/utilities" "^6.41.7"
+    tslib "^1.7.1"
+
+"@uifabric/utilities@6.29.4":
+  version "6.29.4"
+  resolved "https://registry.yarnpkg.com/@uifabric/utilities/-/utilities-6.29.4.tgz#9b51b96b10c859b2f7a608f3dbaa1bdb78cdc93e"
+  integrity sha512-ESyMQfJrIGy1uM0HQApW0gvKpQCZBWLLoQTGZIq8Z4ZcTUEYN4Te+6oImtn0dxI1CIK6fbQNtLvZb5fX82+jMA==
+  dependencies:
+    "@uifabric/merge-styles" ">=6.15.2 <7.0.0"
+    "@uifabric/set-version" ">=1.1.3 <2.0.0"
+    prop-types "^15.5.10"
+    tslib "^1.7.1"
+
 "@uifabric/utilities@>=1.9.0 <2.0.0":
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/@uifabric/utilities/-/utilities-1.10.2.tgz#e3a721856f6b2140cf397a0d464770966ad27324"
+
+"@uifabric/utilities@>=6.29.3 <7.0.0", "@uifabric/utilities@^6.41.7":
+  version "6.45.2"
+  resolved "https://registry.yarnpkg.com/@uifabric/utilities/-/utilities-6.45.2.tgz#671696f8ac6c4db07500b5aed5181d7b07affb25"
+  integrity sha512-JiC92OjMOkVoiIAeS2b3R9B1XQU0cJ5bDr9B7VvrxlwKe1W9xMtVsCer7b8gNCU5NFNYBN5ckM3Q7x2Zs5cH0A==
+  dependencies:
+    "@uifabric/merge-styles" "^6.19.4"
+    "@uifabric/set-version" "^1.1.3"
+    prop-types "^15.5.10"
+    tslib "^1.7.1"
 
 Base64@~0.2.0:
   version "0.2.1"
@@ -844,6 +1211,11 @@ acorn@^4.0.3, acorn@^4.0.4:
 acorn@^5.0.3:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.0.3.tgz#c460df08491463f028ccb82eab3730bf01087b3d"
+
+adal-angular@1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/adal-angular/-/adal-angular-1.0.16.tgz#e2bc31bc712aaffba053aa4dd46bc84eb5d2090f"
+  integrity sha512-tJf2bRwolKA8/J+wcy4CFOTAva8gpueHplptfjz3Wt1XOb7Y1jnwdm2VdkFZQUhxCtd/xPvcRSAQP2+ROtAD5g==
 
 after@0.8.2:
   version "0.8.2"
@@ -2026,6 +2398,11 @@ csso@~2.3.1:
     clap "^1.0.9"
     source-map "^0.5.3"
 
+csstype@^2.2.0:
+  version "2.6.21"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.21.tgz#2efb85b7cc55c80017c66a5ad7cbd931fda3a90e"
+  integrity sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==
+
 csurf@~1.8.3:
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/csurf/-/csurf-1.8.3.tgz#23f2a13bf1d8fce1d0c996588394442cba86a56a"
@@ -2406,6 +2783,16 @@ es6-collections@0.5.6:
 es6-promise@3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-3.1.2.tgz#795e25ceb47f7babb263d151afbedd92d18e6a07"
+
+es6-promise@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.1.1.tgz#8811e90915d9a0dba36274f0b242dbda78f9c92a"
+  integrity sha512-OaU1hHjgJf+b0NzsxCg7NdIYERD6Hy/PEmFLTjw+b65scuisG3Kt4QoTvJ66BBkPZ581gr0kpoVzKnxniM8nng==
+
+es6-promise@^4.1.0:
+  version "4.2.8"
+  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.2.8.tgz#4eb21594c972bc40553d276e510539143db53e0a"
+  integrity sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w==
 
 es6-promise@~4.0.3:
   version "4.0.5"
@@ -3964,7 +4351,7 @@ isobject@^2.0.0, isobject@^2.1.0:
   dependencies:
     isarray "1.0.0"
 
-isomorphic-fetch@^2.1.1:
+isomorphic-fetch@^2.1.1, isomorphic-fetch@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
   dependencies:
@@ -4027,6 +4414,11 @@ js-base64@^2.1.8, js-base64@^2.1.9:
 js-tokens@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.1.tgz#08e9f132484a2c45a30907e9dc4d5567b7f114d7"
+
+"js-tokens@^3.0.0 || ^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
+  integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
 js-yaml@3.x, js-yaml@^3.4.3:
   version "3.8.4"
@@ -4427,7 +4819,7 @@ lodash.escape@~2.4.1:
     lodash._reunescapedhtml "~2.4.1"
     lodash.keys "~2.4.1"
 
-lodash.get@^4.1.2:
+lodash.get@^4.0.0, lodash.get@^4.1.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
 
@@ -4629,6 +5021,13 @@ loose-envify@^1.0.0, loose-envify@^1.1.0:
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.3.1.tgz#d1a8ad33fa9ce0e713d65fdd0ac8b748d478c848"
   dependencies:
     js-tokens "^3.0.0"
+
+loose-envify@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
+  dependencies:
+    js-tokens "^3.0.0 || ^4.0.0"
 
 loud-rejection@^1.0.0:
   version "1.6.0"
@@ -5176,7 +5575,7 @@ object-assign@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.0.tgz#7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0"
 
-object-assign@4.x.x, object-assign@^4.0.0, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@~4.1.0:
+object-assign@4.x.x, object-assign@^4.0.0, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1, object-assign@~4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
@@ -5211,6 +5610,21 @@ office-ui-fabric-react@2.31.0:
   dependencies:
     "@microsoft/load-themed-styles" "^1.2.2"
     "@uifabric/utilities" ">=1.9.0 <2.0.0"
+
+office-ui-fabric-react@6.143.0:
+  version "6.143.0"
+  resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-6.143.0.tgz#8859a2e23780999c3372d73c80e1e32cb7dd2b5d"
+  integrity sha512-JXV1h8upR+WPYQ7SuJFgp9XuLrJUDT9QjI7bzbyY+dpwjKCX0D22BlTfi7O52IdDt4eFesJofN8DfW0A/opvMw==
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.7.13"
+    "@uifabric/foundation" ">=0.7.1 <1.0.0"
+    "@uifabric/icons" ">=6.4.0 <7.0.0"
+    "@uifabric/merge-styles" ">=6.15.2 <7.0.0"
+    "@uifabric/set-version" ">=1.1.3 <2.0.0"
+    "@uifabric/styling" ">=6.41.0 <7.0.0"
+    "@uifabric/utilities" ">=6.29.3 <7.0.0"
+    prop-types "^15.5.10"
+    tslib "^1.7.1"
 
 office-ui-fabric@2.6.1:
   version "2.6.1"
@@ -5856,6 +6270,15 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
+prop-types@^15.5.10, prop-types@^15.6.2:
+  version "15.8.1"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
+  integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.13.1"
+
 proxy-addr@~1.1.3, proxy-addr@~1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-1.1.4.tgz#27e545f6960a44a627d9b44467e35c1b6b4ce2f3"
@@ -5994,6 +6417,31 @@ react-dom@15.4.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
+react-dom@16.5.0:
+  version "16.5.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.5.0.tgz#57704e5718669374b182a17ea79a6d24922cb27d"
+  integrity sha512-qgsQdjFH54pQ1AGLCBKsqjPxib4Pnp+cOsNxGPlkHn5YnsSt43sBvHSif6FheY7NMMS6HPeSJOxXf6ECanjacA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    schedule "^0.3.0"
+
+react-dom@16.7.0:
+  version "16.7.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.7.0.tgz#a17b2a7ca89ee7390bc1ed5eb81783c7461748b8"
+  integrity sha512-D0Ufv1ExCAmF38P2Uh1lwpminZFRXEINJe53zRAbm4KPwSyd6DY/uDoS0Blj9jvPpn1+wivKpZYc8aAAN/nAkg==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.12.0"
+
+react-is@^16.13.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
 react@15.4.2:
   version "15.4.2"
   resolved "https://registry.yarnpkg.com/react/-/react-15.4.2.tgz#41f7991b26185392ba9bae96c8889e7e018397ef"
@@ -6001,6 +6449,26 @@ react@15.4.2:
     fbjs "^0.8.4"
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
+
+react@16.5.0:
+  version "16.5.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.5.0.tgz#f2c1e754bf9751a549d9c6d9aca41905beb56575"
+  integrity sha512-nw/yB/L51kA9PsAy17T1JrzzGRk+BlFCJwFF7p+pwVxgqwPjYNeZEkkH7LXn9dmflolrYMXLWMTkQ77suKPTNQ==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    schedule "^0.3.0"
+
+react@16.7.0:
+  version "16.7.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.7.0.tgz#b674ec396b0a5715873b350446f7ea0802ab6381"
+  integrity sha512-StCz3QY8lxTb5cl2HJxjwLFOXPIFQp+p+hxQfc8WE0QiLfCtIlKj8/+5tjjKm8uSTlAW+fCPaavGFS06V9Ar3A==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.12.0"
 
 read-all-stream@^3.0.0:
   version "3.1.0"
@@ -6385,6 +6853,21 @@ sax@0.5.2:
 sax@~1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.2.tgz#fd8631a23bc7826bef5d871bdb87378c95647828"
+
+schedule@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/schedule/-/schedule-0.3.0.tgz#1be2ab2fc2e768536269ce7326efb478d6c045e8"
+  integrity sha512-20+1KVo517sR7Nt+bYBN8a+bEJDKLPEx7Ohtts1kX05E4/HY53YUNuhfkVNItmWAnBYHcpG9vsd2/CJxG+aPCQ==
+  dependencies:
+    object-assign "^4.1.1"
+
+scheduler@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.12.0.tgz#8ab17699939c0aedc5a196a657743c496538647b"
+  integrity sha512-t7MBR28Akcp4Jm+QoR63XgAi9YgCUmgvDHqf5otgAj4QvdoBE4ImCX0ffehefePPG+aitiYHp0g/mW6s4Tp+dw==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
 
 scss-tokenizer@^0.2.3:
   version "0.2.3"
@@ -7073,6 +7556,16 @@ try-json-parse@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/try-json-parse/-/try-json-parse-0.1.1.tgz#8db01622e877e51b83140caee7c80864ad390c82"
 
+tslib@^1.7.1:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
+  integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
+
+tslib@~1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
+  integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+
 tslint-microsoft-contrib@4.0.0, tslint-microsoft-contrib@~4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-4.0.0.tgz#7e00a56c1417251d3f91a880efcc43361a69fb2a"
@@ -7374,6 +7867,11 @@ validator@^5.0.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/validator/-/validator-5.7.0.tgz#7a87a58146b695ac486071141c0c49d67da05e5c"
 
+validator@^8.0.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-8.2.0.tgz#3c1237290e37092355344fef78c231249dab77b9"
+  integrity sha512-Yw5wW34fSv5spzTXNkokD6S6/Oq92d8q/t14TqsS3fAiA1RYnxSFSIZ+CY3n6PGGRCq5HhJTSepQvFUS2QUDxA==
+
 validator@~3.22.2:
   version "3.22.2"
   resolved "https://registry.yarnpkg.com/validator/-/validator-3.22.2.tgz#6f297ae67f7f82acc76d0afdb49f18d9a09c18c0"
@@ -7609,11 +8107,11 @@ whatwg-fetch@0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz#46b1d18d0aa99955971ef1a2f5aac506add28815"
 
-whatwg-fetch@>=0.10.0:
+whatwg-fetch@2.0.3, whatwg-fetch@>=0.10.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz#9c84ec2dcf68187ff00bc64e1274b442176e1c84"
 
-whatwg-url@~4.7.0:
+whatwg-url@4.7.1, whatwg-url@~4.7.0:
   version "4.7.1"
   resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-4.7.1.tgz#df4dc2e3f25a63b1fa5b32ed6d6c139577d690de"
   dependencies:
@@ -7865,3 +8363,14 @@ z-schema@~3.17.0:
   optionalDependencies:
     commander "^2.7.1"
     request "^2.54.0"
+
+z-schema@~3.18.3:
+  version "3.18.4"
+  resolved "https://registry.yarnpkg.com/z-schema/-/z-schema-3.18.4.tgz#ea8132b279533ee60be2485a02f7e3e42541a9a2"
+  integrity sha512-DUOKC/IhbkdLKKiV89gw9DUauTV8U/8yJl1sjf6MtDmzevLKOF2duNJ495S3MFVjqZarr+qNGCPbkg4mu4PpLw==
+  dependencies:
+    lodash.get "^4.0.0"
+    lodash.isequal "^4.0.0"
+    validator "^8.0.0"
+  optionalDependencies:
+    commander "^2.7.1"
