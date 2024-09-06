@@ -14,10 +14,10 @@
     "@microsoft/sp-core-library": "1.7.1",
     "@microsoft/sp-lodash-subset": "1.7.1",
     "@microsoft/sp-office-ui-fabric-core": "1.7.1",
-    "@microsoft/sp-webpart-base": "1.7.1",
+    "@microsoft/sp-webpart-base": "1.8.0",
     "@types/es6-promise": "0.0.33",
     "@types/webpack-env": "1.13.1",
-    "npm": "^6.7.0"
+    "npm": "^10.6.0"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "1.7.1",
