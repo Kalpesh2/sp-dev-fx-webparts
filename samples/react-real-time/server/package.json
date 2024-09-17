@@ -6,7 +6,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node server"
+    "start": "node server",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "engines": {
     "node": "6.9.0"
@@ -15,6 +17,8 @@
   "dependencies": {
     "azure": "^1.2.0-preview",
     "express": "^4.14.0",
-    "socket.io": "^1.4.8"
-  }
+    "socket.io": "^3.0.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }

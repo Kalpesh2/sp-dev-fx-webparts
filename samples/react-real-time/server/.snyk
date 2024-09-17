@@ -1,0 +1,934 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - azure > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-batch > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-batch > ms-rest > request > hawk > hoek
+    - azure > azure-arm-eventhub > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-eventhub > ms-rest > request > hawk > hoek
+    - azure > azure-arm-rediscache > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-rediscache > ms-rest > request > hawk > hoek
+    - azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-resource > ms-rest > request > hawk > hoek
+    - azure > azure-arm-sb > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-sb > ms-rest > request > hawk > hoek
+    - azure > azure-arm-servermanagement > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-servermanagement > ms-rest > request > hawk > hoek
+    - azure > azure-batch > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-batch > ms-rest > request > hawk > hoek
+    - azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-common > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-common > request > hawk > cryptiles > boom > hoek
+    - azure > azure-storage > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-storage > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-batch > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-batch > ms-rest > request > hawk > boom > hoek
+    - azure > azure-arm-eventhub > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-eventhub > ms-rest > request > hawk > boom > hoek
+    - azure > azure-arm-rediscache > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-rediscache > ms-rest > request > hawk > boom > hoek
+    - azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek
+    - azure > azure-arm-sb > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-sb > ms-rest > request > hawk > boom > hoek
+    - azure > azure-arm-servermanagement > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-servermanagement > ms-rest > request > hawk > boom >
+          hoek
+    - azure > azure-batch > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-batch > ms-rest > request > hawk > boom > hoek
+    - azure > azure-arm-batch > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-batch > ms-rest > request > hawk > sntp > hoek
+    - azure > azure-arm-eventhub > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-eventhub > ms-rest > request > hawk > sntp > hoek
+    - azure > azure-arm-rediscache > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-rediscache > ms-rest > request > hawk > sntp > hoek
+    - azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek
+    - azure > azure-arm-sb > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-sb > ms-rest > request > hawk > sntp > hoek
+    - azure > azure-arm-servermanagement > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-servermanagement > ms-rest > request > hawk > sntp >
+          hoek
+    - azure > azure-batch > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-batch > ms-rest > request > hawk > sntp > hoek
+    - azure > azure-arm-batch > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-batch > ms-rest-azure > ms-rest > request > hawk >
+          hoek
+    - azure > azure-arm-eventhub > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-eventhub > ms-rest-azure > ms-rest > request > hawk
+          > hoek
+    - azure > azure-arm-rediscache > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-rediscache > ms-rest-azure > ms-rest > request >
+          hawk > hoek
+    - azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk
+          > hoek
+    - azure > azure-arm-sb > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-arm-sb > ms-rest-azure > ms-rest > request > hawk > hoek
+    - azure > azure-arm-servermanagement > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-servermanagement > ms-rest-azure > ms-rest > request
+          > hawk > hoek
+    - azure > azure-batch > ms-rest-azure > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: azure > azure-batch > ms-rest-azure > ms-rest > request > hawk > hoek
+    - azure > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom >
+          hoek
+    - azure > azure-arm-authorization > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-authorization > ms-rest > request > hawk > cryptiles
+          > boom > hoek
+    - azure > azure-arm-batch > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-batch > ms-rest > request > hawk > cryptiles > boom
+          > hoek
+    - azure > azure-arm-cdn > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-cdn > ms-rest > request > hawk > cryptiles > boom >
+          hoek
+    - azure > azure-arm-compute > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-compute > ms-rest > request > hawk > cryptiles >
+          boom > hoek
+    - azure > azure-arm-datalake-analytics > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-datalake-analytics > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-arm-datalake-store > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-datalake-store > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-arm-devtestlabs > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-devtestlabs > ms-rest > request > hawk > cryptiles >
+          boom > hoek
+    - azure > azure-arm-dns > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-dns > ms-rest > request > hawk > cryptiles > boom >
+          hoek
+    - azure > azure-arm-eventhub > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-eventhub > ms-rest > request > hawk > cryptiles >
+          boom > hoek
+    - azure > azure-arm-intune > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-intune > ms-rest > request > hawk > cryptiles > boom
+          > hoek
+    - azure > azure-arm-iothub > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-iothub > ms-rest > request > hawk > cryptiles > boom
+          > hoek
+    - azure > azure-arm-keyvault > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-keyvault > ms-rest > request > hawk > cryptiles >
+          boom > hoek
+    - azure > azure-arm-network > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-network > ms-rest > request > hawk > cryptiles >
+          boom > hoek
+    - azure > azure-arm-notificationhubs > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-notificationhubs > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-arm-powerbiembedded > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-powerbiembedded > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-arm-rediscache > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-rediscache > ms-rest > request > hawk > cryptiles >
+          boom > hoek
+    - azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-resource > ms-rest > request > hawk > cryptiles >
+          boom > hoek
+    - azure > azure-arm-sb > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-sb > ms-rest > request > hawk > cryptiles > boom >
+          hoek
+    - azure > azure-arm-servermanagement > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-servermanagement > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-arm-servicefabric > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-servicefabric > ms-rest > request > hawk > cryptiles
+          > boom > hoek
+    - azure > azure-arm-storage > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-storage > ms-rest > request > hawk > cryptiles >
+          boom > hoek
+    - azure > azure-arm-website > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-website > ms-rest > request > hawk > cryptiles >
+          boom > hoek
+    - azure > azure-batch > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-batch > ms-rest > request > hawk > cryptiles > boom >
+          hoek
+    - azure > azure-graph > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-graph > ms-rest > request > hawk > cryptiles > boom >
+          hoek
+    - azure > azure-keyvault > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-keyvault > ms-rest > request > hawk > cryptiles > boom >
+          hoek
+    - azure > azure-arm-batch > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-batch > ms-rest-azure > ms-rest > request > hawk >
+          boom > hoek
+    - azure > azure-arm-eventhub > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-eventhub > ms-rest-azure > ms-rest > request > hawk
+          > boom > hoek
+    - azure > azure-arm-rediscache > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-rediscache > ms-rest-azure > ms-rest > request >
+          hawk > boom > hoek
+    - azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk
+          > boom > hoek
+    - azure > azure-arm-sb > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-sb > ms-rest-azure > ms-rest > request > hawk > boom
+          > hoek
+    - azure > azure-arm-servermanagement > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-servermanagement > ms-rest-azure > ms-rest > request
+          > hawk > boom > hoek
+    - azure > azure-batch > ms-rest-azure > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-batch > ms-rest-azure > ms-rest > request > hawk > boom
+          > hoek
+    - azure > azure-arm-batch > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-batch > ms-rest-azure > ms-rest > request > hawk >
+          sntp > hoek
+    - azure > azure-arm-eventhub > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-eventhub > ms-rest-azure > ms-rest > request > hawk
+          > sntp > hoek
+    - azure > azure-arm-rediscache > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-rediscache > ms-rest-azure > ms-rest > request >
+          hawk > sntp > hoek
+    - azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk
+          > sntp > hoek
+    - azure > azure-arm-sb > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-sb > ms-rest-azure > ms-rest > request > hawk > sntp
+          > hoek
+    - azure > azure-arm-servermanagement > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-servermanagement > ms-rest-azure > ms-rest > request
+          > hawk > sntp > hoek
+    - azure > azure-batch > ms-rest-azure > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-batch > ms-rest-azure > ms-rest > request > hawk > sntp
+          > hoek
+    - azure > azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest
+          > request > hawk > hoek
+    - azure > azure-arm-eventhub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-eventhub > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > hoek
+    - azure > azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-rediscache > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > hoek
+    - azure > azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-resource > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > hoek
+    - azure > azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > hoek
+    - azure > azure-arm-servermanagement > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-servermanagement > ms-rest-azure >
+          azure-arm-resource > ms-rest > request > hawk > hoek
+    - azure > azure-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-batch > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > hoek
+    - azure > azure-arm-authorization > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-authorization > ms-rest-azure > ms-rest > request >
+          hawk > cryptiles > boom > hoek
+    - azure > azure-arm-batch > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-batch > ms-rest-azure > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-arm-cdn > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-cdn > ms-rest-azure > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-arm-compute > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-compute > ms-rest-azure > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-arm-datalake-analytics > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-datalake-analytics > ms-rest-azure > ms-rest >
+          request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-datalake-store > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-datalake-store > ms-rest-azure > ms-rest > request >
+          hawk > cryptiles > boom > hoek
+    - azure > azure-arm-devtestlabs > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-devtestlabs > ms-rest-azure > ms-rest > request >
+          hawk > cryptiles > boom > hoek
+    - azure > azure-arm-dns > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-dns > ms-rest-azure > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-arm-eventhub > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-eventhub > ms-rest-azure > ms-rest > request > hawk
+          > cryptiles > boom > hoek
+    - azure > azure-arm-intune > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-intune > ms-rest-azure > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-arm-iothub > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-iothub > ms-rest-azure > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-arm-keyvault > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-keyvault > ms-rest-azure > ms-rest > request > hawk
+          > cryptiles > boom > hoek
+    - azure > azure-arm-network > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-network > ms-rest-azure > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-arm-notificationhubs > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-notificationhubs > ms-rest-azure > ms-rest > request
+          > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-powerbiembedded > ms-rest-azure > ms-rest > request
+          > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-rediscache > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-rediscache > ms-rest-azure > ms-rest > request >
+          hawk > cryptiles > boom > hoek
+    - azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-resource > ms-rest-azure > ms-rest > request > hawk
+          > cryptiles > boom > hoek
+    - azure > azure-arm-sb > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-sb > ms-rest-azure > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-arm-servermanagement > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-servermanagement > ms-rest-azure > ms-rest > request
+          > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-servicefabric > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-servicefabric > ms-rest-azure > ms-rest > request >
+          hawk > cryptiles > boom > hoek
+    - azure > azure-arm-storage > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-storage > ms-rest-azure > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-arm-website > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-website > ms-rest-azure > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-batch > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-batch > ms-rest-azure > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-graph > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-graph > ms-rest-azure > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > azure-keyvault > ms-rest-azure > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-keyvault > ms-rest-azure > ms-rest > request > hawk >
+          cryptiles > boom > hoek
+    - azure > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk
+          > cryptiles > boom > hoek
+    - azure > azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest
+          > request > hawk > boom > hoek
+    - azure > azure-arm-eventhub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-eventhub > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > boom > hoek
+    - azure > azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-rediscache > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > boom > hoek
+    - azure > azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-resource > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > boom > hoek
+    - azure > azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > boom > hoek
+    - azure > azure-arm-servermanagement > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-servermanagement > ms-rest-azure >
+          azure-arm-resource > ms-rest > request > hawk > boom > hoek
+    - azure > azure-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-batch > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > boom > hoek
+    - azure > azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest
+          > request > hawk > sntp > hoek
+    - azure > azure-arm-eventhub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-eventhub > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > sntp > hoek
+    - azure > azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-rediscache > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > sntp > hoek
+    - azure > azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-resource > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > sntp > hoek
+    - azure > azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > sntp > hoek
+    - azure > azure-arm-servermanagement > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-servermanagement > ms-rest-azure >
+          azure-arm-resource > ms-rest > request > hawk > sntp > hoek
+    - azure > azure-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > sntp > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-batch > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > sntp > hoek
+    - azure > azure-arm-authorization > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-authorization > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest
+          > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-cdn > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-cdn > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-compute > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-compute > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-datalake-analytics > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-datalake-analytics > ms-rest-azure >
+          azure-arm-resource > ms-rest > request > hawk > cryptiles > boom >
+          hoek
+    - azure > azure-arm-datalake-store > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-datalake-store > ms-rest-azure > azure-arm-resource
+          > ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-devtestlabs > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-devtestlabs > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-dns > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-dns > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-eventhub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-eventhub > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-intune > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-intune > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-iothub > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-iothub > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-keyvault > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-network > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-network > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-notificationhubs > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-notificationhubs > ms-rest-azure >
+          azure-arm-resource > ms-rest > request > hawk > cryptiles > boom >
+          hoek
+    - azure > azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-powerbiembedded > ms-rest-azure > azure-arm-resource
+          > ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-rediscache > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-resource > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-servermanagement > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-servermanagement > ms-rest-azure >
+          azure-arm-resource > ms-rest > request > hawk > cryptiles > boom >
+          hoek
+    - azure > azure-arm-servicefabric > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-servicefabric > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-storage > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-storage > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-arm-website > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-arm-website > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > hawk > cryptiles > boom > hoek
+    - azure > azure-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-batch > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > cryptiles > boom > hoek
+    - azure > azure-graph > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-graph > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > hawk > cryptiles > boom > hoek
+    - azure > azure-keyvault > ms-rest-azure > azure-arm-resource > ms-rest > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          azure > azure-keyvault > ms-rest-azure > azure-arm-resource > ms-rest
+          > request > hawk > cryptiles > boom > hoek
+  'npm:tunnel-agent:20170305':
+    - azure > azure-arm-batch > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: azure > azure-arm-batch > ms-rest > request > tunnel-agent
+    - azure > azure-arm-eventhub > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: azure > azure-arm-eventhub > ms-rest > request > tunnel-agent
+    - azure > azure-arm-rediscache > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: azure > azure-arm-rediscache > ms-rest > request > tunnel-agent
+    - azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: azure > azure-arm-resource > ms-rest > request > tunnel-agent
+    - azure > azure-arm-sb > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: azure > azure-arm-sb > ms-rest > request > tunnel-agent
+    - azure > azure-arm-servermanagement > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: azure > azure-arm-servermanagement > ms-rest > request > tunnel-agent
+    - azure > azure-batch > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: azure > azure-batch > ms-rest > request > tunnel-agent
+    - azure > azure-arm-batch > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure > azure-arm-batch > ms-rest-azure > ms-rest > request >
+          tunnel-agent
+    - azure > azure-arm-eventhub > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure > azure-arm-eventhub > ms-rest-azure > ms-rest > request >
+          tunnel-agent
+    - azure > azure-arm-rediscache > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure > azure-arm-rediscache > ms-rest-azure > ms-rest > request >
+          tunnel-agent
+    - azure > azure-arm-resource > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure > azure-arm-resource > ms-rest-azure > ms-rest > request >
+          tunnel-agent
+    - azure > azure-arm-sb > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure > azure-arm-sb > ms-rest-azure > ms-rest > request >
+          tunnel-agent
+    - azure > azure-arm-servermanagement > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure > azure-arm-servermanagement > ms-rest-azure > ms-rest > request
+          > tunnel-agent
+    - azure > azure-batch > ms-rest-azure > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: azure > azure-batch > ms-rest-azure > ms-rest > request > tunnel-agent
+    - azure > azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure > azure-arm-batch > ms-rest-azure > azure-arm-resource > ms-rest
+          > request > tunnel-agent
+    - azure > azure-arm-eventhub > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure > azure-arm-eventhub > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > tunnel-agent
+    - azure > azure-arm-rediscache > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure > azure-arm-rediscache > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > tunnel-agent
+    - azure > azure-arm-resource > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure > azure-arm-resource > ms-rest-azure > azure-arm-resource >
+          ms-rest > request > tunnel-agent
+    - azure > azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure > azure-arm-sb > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > tunnel-agent
+    - azure > azure-arm-servermanagement > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure > azure-arm-servermanagement > ms-rest-azure >
+          azure-arm-resource > ms-rest > request > tunnel-agent
+    - azure > azure-batch > ms-rest-azure > azure-arm-resource > ms-rest > request > tunnel-agent:
+        patched: '2024-09-17T04:20:42.734Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          azure > azure-batch > ms-rest-azure > azure-arm-resource > ms-rest >
+          request > tunnel-agent
