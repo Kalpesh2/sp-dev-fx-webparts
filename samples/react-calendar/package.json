@@ -39,7 +39,7 @@
     "moment": "^2.24.0",
     "office-ui-fabric-react": "6.143.0",
     "react": "16.7.0",
-    "react-big-calendar": "^0.20.4",
+    "react-big-calendar": "^0.21.0",
     "react-dom": "16.7.0",
     "react-draft-wysiwyg": "^1.13.2",
     "spfx-uifabric-themes": "^0.6.0",
