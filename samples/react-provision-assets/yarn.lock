@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@babel/runtime@^7.1.2":
+  version "7.28.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.28.2.tgz#2ae5a9d51cc583bd1f5673b3bb70d6d819682473"
+  integrity sha512-KHp2IflsnGywDjBWDkR9iEqiWSpc8GIi0lgTT3mOElT0PP1tG26P4tmFI2YvAdzgq9RGyoHZQEIEdZy6Ec5xCA==
+
 "@microsoft/api-extractor@>=2.0.5 <3.0.0":
   version "2.0.8"
   resolved "https://registry.yarnpkg.com/@microsoft/api-extractor/-/api-extractor-2.0.8.tgz#31b9dfbb046dc763182e0550fb5b21083e349d70"
@@ -18,6 +23,11 @@
 "@microsoft/decorators@~1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@microsoft/decorators/-/decorators-1.1.0.tgz#fd14e6a50d038782e8d450bb9bec165a6766d0c3"
+
+"@microsoft/decorators@~1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/decorators/-/decorators-1.3.4.tgz#cc92be21a685ecc14d3a710a49246d546cfc276a"
+  integrity sha512-Q+heQug0dGLDeFWTGUVLK2Ln6zgHkBnnRqgnFtcNd+J/MeAVsD/hVI24OYz+PNwL9C1gTySAL36l8YhW+EuWEw==
 
 "@microsoft/gulp-core-build-karma@2.2.2":
   version "2.2.2"
@@ -159,6 +169,16 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.4.0.tgz#1830bddbcf101712ca260217e55ab744a52041dc"
 
+"@microsoft/load-themed-styles@1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.7.4.tgz#dd253d80c8220913d27ab06ee56c4b2ec451f3d3"
+  integrity sha512-GSDDaiWE+dqFzaQMuc2pVxkzdIVDRo6JIIDEn5ZsIc78a5alt9tvwPLLuGQxv2sMuLz6SmWXGsPD5fNTTAjvVA==
+
+"@microsoft/load-themed-styles@^1.7.2":
+  version "1.10.295"
+  resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.10.295.tgz#d3c8d7ab186f422727ba112d6ebe5fe8e41051d9"
+  integrity sha512-W+IzEBw8a6LOOfRJM02dTT7BDZijxm+Z7lhtOAz1+y9vQm1Kdz9jlAO+qCEKsfxtUOmKilW8DIRqFw2aUgKeGg==
+
 "@microsoft/loader-cased-file@~1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@microsoft/loader-cased-file/-/loader-cased-file-1.0.1.tgz#f3d24dc71b4ed6512de88faed00c827f97a15a16"
@@ -192,6 +212,17 @@
     "@types/react" "0.14.46"
     "@types/webpack-env" "1.13.0"
     office-ui-fabric-react "2.31.0"
+    react "15.4.2"
+    react-dom "15.4.2"
+
+"@microsoft/office-ui-fabric-react-bundle@~1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/office-ui-fabric-react-bundle/-/office-ui-fabric-react-bundle-1.3.4.tgz#38511d35fb03aa18ac9b19c86c4efe27fd24db3f"
+  integrity sha512-mlTapdvqWs+a4zt34JB2O5amrLgpZDCGCSZ0Tr9D4rU3HFW1YZjn8tD6o+94Wp7Gkxz+UZhPi+9F2xQNHldd/Q==
+  dependencies:
+    "@types/react" "15.0.38"
+    "@types/webpack-env" "1.13.0"
+    office-ui-fabric-react "4.40.2-hotfix.1"
     react "15.4.2"
     react-dom "15.4.2"
 
@@ -357,12 +388,38 @@
     "@types/es6-promise" "0.0.32"
     "@types/webpack-env" "1.13.0"
 
+"@microsoft/sp-component-base@~1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-component-base/-/sp-component-base-1.3.4.tgz#00ceb67ecb0c111ee166e1f924ff1b9fc488d6e6"
+  integrity sha512-cWzv3BuHwqIGVCV5oCe1uRhNNKlEEDE/OumYaFDIxBmP4TIpjo5BmZG5m+Qo7iQOUIgxJzYKks5LoiZlFeZIUA==
+  dependencies:
+    "@microsoft/decorators" "~1.3.4"
+    "@microsoft/sp-core-library" "~1.3.4"
+    "@microsoft/sp-loader" "~1.3.4"
+    "@microsoft/sp-lodash-subset" "~1.3.4"
+    "@microsoft/sp-module-interfaces" "~1.3.4"
+    "@microsoft/sp-page-context" "~1.3.4"
+    "@types/es6-collections" "0.5.29"
+    "@types/es6-promise" "0.0.32"
+    "@types/webpack-env" "1.13.0"
+
 "@microsoft/sp-core-library@~1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-core-library/-/sp-core-library-1.1.0.tgz#9197a8dc8d2c502fd087cc7e70e1540a723e8cfe"
   dependencies:
     "@microsoft/sp-lodash-subset" "~1.1.0"
     "@microsoft/sp-module-interfaces" "~1.1.0"
+    "@types/es6-collections" "0.5.29"
+    "@types/webpack-env" "1.13.0"
+    es6-collections "0.5.6"
+
+"@microsoft/sp-core-library@~1.3.0", "@microsoft/sp-core-library@~1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-core-library/-/sp-core-library-1.3.4.tgz#d915dacd4e473896e3a0d7e8dd34f4475da3e649"
+  integrity sha512-WNdDYZaLd2o8a5uwWmzOsICKYLrpq8W4O3qFdDD4iivcbzSlH9F4qqeU4KmYaG5uoxnH0znHkUOnYR/4VW4w9A==
+  dependencies:
+    "@microsoft/sp-lodash-subset" "~1.3.4"
+    "@microsoft/sp-module-interfaces" "~1.3.4"
     "@types/es6-collections" "0.5.29"
     "@types/webpack-env" "1.13.0"
     es6-collections "0.5.6"
@@ -393,6 +450,20 @@
     "@types/es6-promise" "0.0.32"
     "@types/webpack-env" "1.13.0"
 
+"@microsoft/sp-http@~1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-http/-/sp-http-1.3.4.tgz#6a04754a51f7310b25860a93d9f65c8f8739e90b"
+  integrity sha512-Pmz7QHzEyLQL16hkD2+RHZGd5oF9ViT4r6msrGr1ejTWdZpGvvkY4NmKhLtn3XhiD3RT0EfVLufbk0fle0C8LQ==
+  dependencies:
+    "@microsoft/decorators" "~1.3.4"
+    "@microsoft/sp-core-library" "~1.3.4"
+    "@microsoft/sp-lodash-subset" "~1.3.4"
+    "@types/adal" "1.0.27"
+    "@types/es6-collections" "0.5.29"
+    "@types/es6-promise" "0.0.32"
+    "@types/webpack-env" "1.13.0"
+    adal-angular "1.0.15"
+
 "@microsoft/sp-loader@~1.1.0", "@microsoft/sp-loader@~1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-loader/-/sp-loader-1.1.1.tgz#c45dca389c97e503dcbb01c70e79a4eac44cd831"
@@ -417,9 +488,40 @@
     requirejs "2.1.20"
     whatwg-fetch "0.11.0"
 
+"@microsoft/sp-loader@~1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-loader/-/sp-loader-1.3.4.tgz#f89557cceeec551b8883e188312cf08c022fb9a6"
+  integrity sha512-4wqL9q0C2xp71lJ7KFs/+wr+Q+HEp7ffLmXkhqDE2Ynas+pG1pYZJDiMJVh7AmOyZ7QjSQ939YNWc8P1B7vXag==
+  dependencies:
+    "@microsoft/office-ui-fabric-react-bundle" "~1.3.4"
+    "@microsoft/sp-core-library" "~1.3.4"
+    "@microsoft/sp-lodash-subset" "~1.3.4"
+    "@microsoft/sp-module-interfaces" "~1.3.4"
+    "@microsoft/sp-odata-types" "~1.3.4"
+    "@microsoft/sp-polyfills" "~1.3.4"
+    "@types/es6-collections" "0.5.29"
+    "@types/es6-promise" "0.0.32"
+    "@types/react" "15.0.38"
+    "@types/react-dom" "0.14.18"
+    "@types/requirejs" "2.1.29"
+    "@types/webpack-env" "1.13.0"
+    office-ui-fabric-react "4.40.2-hotfix.1"
+    react "15.4.2"
+    react-dom "15.4.2"
+    requirejs "2.1.20"
+
 "@microsoft/sp-lodash-subset@~1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-lodash-subset/-/sp-lodash-subset-1.1.0.tgz#0f28d306c674135cf4d3f7668f844921facc97d6"
+  dependencies:
+    "@types/lodash" "4.14.52"
+    "@types/webpack-env" "1.13.0"
+    lodash "~4.15.0"
+
+"@microsoft/sp-lodash-subset@~1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-lodash-subset/-/sp-lodash-subset-1.3.4.tgz#ee906448fdedc227a7b2a12ee21dbf3336681578"
+  integrity sha512-ofbcbqY18qcnQqzgTdlGDSRzUyqfEm4RzLJwykrwzocD+g81dsSkhAcyvRh0JSwnkOYixHVgLOOMlUFToUCLlw==
   dependencies:
     "@types/lodash" "4.14.52"
     "@types/webpack-env" "1.13.0"
@@ -433,9 +535,23 @@
     "@types/z-schema" "3.16.20-alpha"
     z-schema "~3.17.0"
 
+"@microsoft/sp-module-interfaces@~1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-module-interfaces/-/sp-module-interfaces-1.3.4.tgz#6122237d3ccf20c169b49b9c8ada1ec39519d959"
+  integrity sha512-+zdgNQIju5PFRtKq9kTQzDRa7JxA0nrpFC643VKdw49xukGI0S2RGRaz0JB2MjY6ZwV3aQY1zAj59BzEYdYOKQ==
+  dependencies:
+    "@types/node" "6.0.64"
+    "@types/z-schema" "3.16.31"
+    z-schema "~3.18.3"
+
 "@microsoft/sp-odata-types@~1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-odata-types/-/sp-odata-types-1.1.0.tgz#9b4f7d4b1ebcef75050cd97c9b34c4697ff044b6"
+
+"@microsoft/sp-odata-types@~1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-odata-types/-/sp-odata-types-1.3.4.tgz#fc40b343ae2d1581715eb5bba4b5efa20dcdb14c"
+  integrity sha512-UFYw4hFRWBlJGNgt52mbzaJWtpc1kN/ElNYBRHQXzv+V68wILttv1tJH0QEj9oaMzos2vOQmodhw/UoPbXBxlw==
 
 "@microsoft/sp-page-context@~1.1.0":
   version "1.1.0"
@@ -445,6 +561,18 @@
     "@microsoft/sp-http" "~1.1.1"
     "@microsoft/sp-lodash-subset" "~1.1.0"
     "@microsoft/sp-odata-types" "~1.1.0"
+    "@types/es6-promise" "0.0.32"
+    "@types/webpack-env" "1.13.0"
+
+"@microsoft/sp-page-context@~1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-page-context/-/sp-page-context-1.3.4.tgz#97f9a0df5a3b9b3d2ff630c6441f2a9f85c9d2fc"
+  integrity sha512-Wfoh8/z17Qk/DDX4oBH+y1KOp+3qtUQ5xQNVgMmrUhGPPjRaDWTG4cF0Wega1tqO2LCvtMq6zVAUHyzkspBfFA==
+  dependencies:
+    "@microsoft/sp-core-library" "~1.3.4"
+    "@microsoft/sp-http" "~1.3.4"
+    "@microsoft/sp-lodash-subset" "~1.3.4"
+    "@microsoft/sp-odata-types" "~1.3.4"
     "@types/es6-promise" "0.0.32"
     "@types/webpack-env" "1.13.0"
 
@@ -459,6 +587,18 @@
     whatwg-fetch "0.11.0"
     whatwg-url "~4.7.0"
 
+"@microsoft/sp-polyfills@~1.3.4":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-polyfills/-/sp-polyfills-1.3.4.tgz#e37baeb7eaff8cab6931dd5a3b00535889afed74"
+  integrity sha512-kinBR2UExz5y0ZERL9ZmnwobQs4O1MQoyyOgB7c1FxR91gKQ3ZkBKm7sVQZk0G1GEnzIsoyiHU2VZjIfAH9H8g==
+  dependencies:
+    "@types/es6-promise" "0.0.32"
+    "@types/webpack-env" "1.13.0"
+    es6-collections "0.5.6"
+    es6-promise "4.1.1"
+    whatwg-fetch "2.0.3"
+    whatwg-url "4.7.1"
+
 "@microsoft/sp-tslint-rules@~1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-tslint-rules/-/sp-tslint-rules-1.1.0.tgz#b7420a10ed285e9f91c8dfbf47974391d2624669"
@@ -468,7 +608,7 @@
     tslint "~4.0.2"
     tslint-microsoft-contrib "4.0.0"
 
-"@microsoft/sp-webpart-base@~1.1.0", "@microsoft/sp-webpart-base@~1.1.1":
+"@microsoft/sp-webpart-base@~1.1.0":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@microsoft/sp-webpart-base/-/sp-webpart-base-1.1.1.tgz#f7ad1a8f65f067b205ff4e5733c1c3858fcb0f05"
   dependencies:
@@ -492,6 +632,33 @@
     office-ui-fabric-react "2.31.0"
     react "15.4.2"
     react-dom "15.4.2"
+
+"@microsoft/sp-webpart-base@~1.3.0":
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-webpart-base/-/sp-webpart-base-1.3.4.tgz#591f2b25f4eb6340140f226caea01b48311516f6"
+  integrity sha512-4EyfuV3mYXUKzKR6+22iK+IQRdStvUbkAJCjVbyrQS8jObkkJCF+AWoJZuDzRKWdQPJz7tFjr51jqDeEOfODUA==
+  dependencies:
+    "@microsoft/decorators" "~1.3.4"
+    "@microsoft/load-themed-styles" "1.7.4"
+    "@microsoft/office-ui-fabric-react-bundle" "~1.3.4"
+    "@microsoft/sp-component-base" "~1.3.4"
+    "@microsoft/sp-core-library" "~1.3.4"
+    "@microsoft/sp-http" "~1.3.4"
+    "@microsoft/sp-loader" "~1.3.4"
+    "@microsoft/sp-lodash-subset" "~1.3.4"
+    "@microsoft/sp-module-interfaces" "~1.3.4"
+    "@microsoft/sp-page-context" "~1.3.4"
+    "@types/es6-collections" "0.5.29"
+    "@types/es6-promise" "0.0.32"
+    "@types/react" "15.0.38"
+    "@types/react-dom" "0.14.18"
+    "@types/scrollreveal" "0.0.2"
+    "@types/webpack-env" "1.13.0"
+    office-ui-fabric "2.6.1"
+    office-ui-fabric-react "4.40.2-hotfix.1"
+    react "15.4.2"
+    react-dom "15.4.2"
+    scrollreveal "3.3.6"
 
 "@microsoft/sp-webpart-workbench@~1.1.0":
   version "1.1.0"
@@ -523,6 +690,18 @@
   dependencies:
     "@types/node" "6.0.64"
     colors "~1.1.2"
+
+"@types/adal@1.0.27":
+  version "1.0.27"
+  resolved "https://registry.yarnpkg.com/@types/adal/-/adal-1.0.27.tgz#20beb326c143451ae462c5af6b251a014fe9e132"
+  integrity sha512-Dll0X5OdCgnqMhp/bH/XSjFpn1putDI9OVlw+LgmxOjZWKUQXOpHkGWbARNReeYBWmaEvWBVWkZG4yhfcCeOZQ==
+  dependencies:
+    "@types/angular" "*"
+
+"@types/angular@*":
+  version "1.8.9"
+  resolved "https://registry.yarnpkg.com/@types/angular/-/angular-1.8.9.tgz#d1ae3e87a67f72342d55ff26e611df83df0fb176"
+  integrity sha512-Z0HukqZkx0fotsV3QO00yqU9NzcQI+tMcrum+8MvfB4ePqCawZctF/gz6QiuII+T1ax+LitNoPx/eICTgnF4sg==
 
 "@types/assertion-error@1.0.30":
   version "1.0.30"
@@ -715,6 +894,11 @@
   version "0.14.46"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-0.14.46.tgz#565d2b8561a39a55ccbd6c90352c52ae75ed2862"
 
+"@types/react@15.0.38":
+  version "15.0.38"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.0.38.tgz#6afea31a9fe66304af474106ba372ddaba449995"
+  integrity sha512-CkRB27L/kMDu7K20U0V7BwYK9/kPd9Im6Jlxv2vAEolYBvQy6JrSpPJsbZXtOk4MoDUomkct8Q7PNBUSLd0fmg==
+
 "@types/requirejs@2.1.29":
   version "2.1.29"
   resolved "https://registry.yarnpkg.com/@types/requirejs/-/requirejs-2.1.29.tgz#bc48bc833c079c2c24ba6afbca6d3a03b3f4e2f3"
@@ -728,6 +912,11 @@
 "@types/rimraf@0.0.28":
   version "0.0.28"
   resolved "https://registry.yarnpkg.com/@types/rimraf/-/rimraf-0.0.28.tgz#5562519bc7963caca8abf7f128cae3b594d41d06"
+
+"@types/scrollreveal@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@types/scrollreveal/-/scrollreveal-0.0.2.tgz#7ab40da52442d1d4e417537f70ef5a7ee5e2bad9"
+  integrity sha512-tLP/n3XGheuFYKfQsNlZbn8d6Gm7e81r9He131adAZltpYySyF99GLgfx4Qikl2ERuY+Pbp73F78PgEicZAzHA==
 
 "@types/semver@5.3.31":
   version "5.3.31"
@@ -801,9 +990,28 @@
   version "3.16.31"
   resolved "https://registry.yarnpkg.com/@types/z-schema/-/z-schema-3.16.31.tgz#2eb1d00a5e4ec3fa58c76afde12e182b66dc5c1c"
 
+"@uifabric/styling@>=0.22.1 <1.0.0":
+  version "0.24.2"
+  resolved "https://registry.yarnpkg.com/@uifabric/styling/-/styling-0.24.2.tgz#66e2afb17bdf8fbb58199661f973abf91a06e58d"
+  integrity sha512-DSxYDRalPTvfsZVWCkcAdKctR1lI7BcT1wFjKnccSbodMW8Ic8o8aS2U0KDUx/PcJNeBvqGfmr25n5176VeU9w==
+  dependencies:
+    "@uifabric/utilities" ">=4.16.0 <5.0.0"
+    glamor "^2.20.40"
+    rtl-css-js "^1.1.3"
+    tslib "^1.7.1"
+
 "@uifabric/utilities@>=1.9.0 <2.0.0":
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/@uifabric/utilities/-/utilities-1.10.2.tgz#e3a721856f6b2140cf397a0d464770966ad27324"
+
+"@uifabric/utilities@>=4.13.0 <5.0.0", "@uifabric/utilities@>=4.16.0 <5.0.0":
+  version "4.16.0"
+  resolved "https://registry.yarnpkg.com/@uifabric/utilities/-/utilities-4.16.0.tgz#05154c14509b0d9fe4a22c6daf21bddd2c6211e7"
+  integrity sha512-VKYqGYQf6x0xa3C/of+DiflOu4KjMu/OfRXzU0DUvLuZErFkr/SmddqJePwFh2npqlACSv54KwUMVP5Qd1Hsig==
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.7.2"
+    prop-types "^15.5.10"
+    tslib "^1.7.1"
 
 Base64@~0.2.0:
   version "0.2.1"
@@ -844,6 +1052,11 @@ acorn@^4.0.3, acorn@^4.0.4:
 acorn@^5.0.3:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.0.3.tgz#c460df08491463f028ccb82eab3730bf01087b3d"
+
+adal-angular@1.0.15:
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/adal-angular/-/adal-angular-1.0.15.tgz#f2a9ef82f358c444e83142ace65d3227a441043b"
+  integrity sha512-I1gO/JbSQWZHnDtzSGpzwN07Do1TjMppNNB7cScZKxoNg7z2UhHQv65jJ0S8Sdbk/qDblIJERZMYdp/dV6YIEg==
 
 after@0.8.2:
   version "0.8.2"
@@ -1239,6 +1452,11 @@ boom@2.x.x:
   resolved "https://registry.yarnpkg.com/boom/-/boom-2.10.1.tgz#39c8918ceff5799f83f9492a848f625add0c766f"
   dependencies:
     hoek "2.x.x"
+
+bowser@^1.7.3:
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.9.4.tgz#890c58a2813a9d3243704334fa81b96a5c150c9a"
+  integrity sha512-9IdMmj2KjigRq6oWhmwv1W36pDuA4STQZ8q6YO9um+x07xgYNCD3Oou+WP/3L1HNz7iqythGet3/p4wvc8AAwQ==
 
 boxen@^0.6.0:
   version "0.6.0"
@@ -1934,6 +2152,14 @@ css-color-names@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
 
+css-in-js-utils@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/css-in-js-utils/-/css-in-js-utils-2.0.1.tgz#3b472b398787291b47cfe3e44fecfdd9e914ba99"
+  integrity sha512-PJF0SpJT+WdbVVt0AOYp9C8GnuruRlL/UFW7932nLWmFLQTaWEzTBQEx7/hn4BuV+WON75iAViSUJLiU3PKbpA==
+  dependencies:
+    hyphenate-style-name "^1.0.2"
+    isobject "^3.0.1"
+
 css-loader@~0.24.0:
   version "0.24.0"
   resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-0.24.0.tgz#7afaafb4c0fb2f90b335ed10a1c77b34d64843fe"
@@ -2407,6 +2633,11 @@ es6-promise@3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-3.1.2.tgz#795e25ceb47f7babb263d151afbedd92d18e6a07"
 
+es6-promise@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.1.1.tgz#8811e90915d9a0dba36274f0b242dbda78f9c92a"
+  integrity sha512-OaU1hHjgJf+b0NzsxCg7NdIYERD6Hy/PEmFLTjw+b65scuisG3Kt4QoTvJ66BBkPZ581gr0kpoVzKnxniM8nng==
+
 es6-promise@~4.0.3:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.0.5.tgz#7882f30adde5b240ccfa7f7d78c548330951ae42"
@@ -2694,6 +2925,19 @@ fbjs@^0.8.1, fbjs@^0.8.4:
     promise "^7.1.1"
     setimmediate "^1.0.5"
     ua-parser-js "^0.7.9"
+
+fbjs@^0.8.12:
+  version "0.8.18"
+  resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.18.tgz#9835e0addb9aca2eff53295cd79ca1cfc7c9662a"
+  integrity sha512-EQaWFK+fEPSoibjNy8IxUtaFOMXcWsY0JaVrQoZR9zC8N2Ygf9iDITPWjUTVIax95b6I742JFLqASHfsag/vKA==
+  dependencies:
+    core-js "^1.0.0"
+    isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    object-assign "^4.1.0"
+    promise "^7.1.1"
+    setimmediate "^1.0.5"
+    ua-parser-js "^0.7.30"
 
 fd-slicer@~1.0.1:
   version "1.0.1"
@@ -2987,6 +3231,17 @@ getpass@^0.1.1:
   resolved "https://registry.yarnpkg.com/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
   dependencies:
     assert-plus "^1.0.0"
+
+glamor@^2.20.40:
+  version "2.20.40"
+  resolved "https://registry.yarnpkg.com/glamor/-/glamor-2.20.40.tgz#f606660357b7cf18dface731ad1a2cfa93817f05"
+  integrity sha512-DNXCd+c14N9QF8aAKrfl4xakPk5FdcFwmH7sD0qnC0Pr7xoZ5W9yovhUrY/dJc3psfGGXC58vqQyRtuskyUJxA==
+  dependencies:
+    fbjs "^0.8.12"
+    inline-style-prefixer "^3.0.6"
+    object-assign "^4.1.1"
+    prop-types "^15.5.10"
+    through "^2.3.8"
 
 glob-base@^0.3.0:
   version "0.3.0"
@@ -3649,6 +3904,11 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
+hyphenate-style-name@^1.0.2:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.1.0.tgz#1797bf50369588b47b72ca6d5e65374607cf4436"
+  integrity sha512-WDC/ui2VVRrz3jOVi+XtjqkDjiVjTtFaAGiW37k6b+ohyQ5wYDOGkvCZa8+H0nx3gyvv0+BST9xuOgIyGQ00gw==
+
 iconv-lite@0.4.11:
   version "0.4.11"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.11.tgz#2ecb42fd294744922209a2e7c404dac8793d8ade"
@@ -3721,6 +3981,14 @@ inherits@2.0.1:
 ini@^1.3.4, ini@~1.3.0:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.4.tgz#0537cb79daf59b59a1a517dff706c86ec039162e"
+
+inline-style-prefixer@^3.0.6:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/inline-style-prefixer/-/inline-style-prefixer-3.0.8.tgz#8551b8e5b4d573244e66a34b04f7d32076a2b534"
+  integrity sha512-ne8XIyyqkRaNJ1JfL1NYzNdCNxq+MCBQhC8NgOQlzNm2vv3XxlP0VSLQUbSRCF6KPEoveCVEpayHoHzcMyZsMQ==
+  dependencies:
+    bowser "^1.7.3"
+    css-in-js-utils "^2.0.0"
 
 inpath@~1.0.2:
   version "1.0.2"
@@ -3964,6 +4232,11 @@ isobject@^2.0.0, isobject@^2.1.0:
   dependencies:
     isarray "1.0.0"
 
+isobject@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+  integrity sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==
+
 isomorphic-fetch@^2.1.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz#611ae1acf14f5e81f729507472819fe9733558a9"
@@ -4027,6 +4300,11 @@ js-base64@^2.1.8, js-base64@^2.1.9:
 js-tokens@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.1.tgz#08e9f132484a2c45a30907e9dc4d5567b7f114d7"
+
+"js-tokens@^3.0.0 || ^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
+  integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
 js-yaml@3.x, js-yaml@^3.4.3:
   version "3.8.4"
@@ -4427,7 +4705,7 @@ lodash.escape@~2.4.1:
     lodash._reunescapedhtml "~2.4.1"
     lodash.keys "~2.4.1"
 
-lodash.get@^4.1.2:
+lodash.get@^4.0.0, lodash.get@^4.1.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
 
@@ -4629,6 +4907,13 @@ loose-envify@^1.0.0, loose-envify@^1.1.0:
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.3.1.tgz#d1a8ad33fa9ce0e713d65fdd0ac8b748d478c848"
   dependencies:
     js-tokens "^3.0.0"
+
+loose-envify@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
+  dependencies:
+    js-tokens "^3.0.0 || ^4.0.0"
 
 loud-rejection@^1.0.0:
   version "1.6.0"
@@ -5176,7 +5461,7 @@ object-assign@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.0.tgz#7a3b3d0e98063d43f4c03f2e8ae6cd51a86883a0"
 
-object-assign@4.x.x, object-assign@^4.0.0, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@~4.1.0:
+object-assign@4.x.x, object-assign@^4.0.0, object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1, object-assign@~4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
@@ -5211,6 +5496,17 @@ office-ui-fabric-react@2.31.0:
   dependencies:
     "@microsoft/load-themed-styles" "^1.2.2"
     "@uifabric/utilities" ">=1.9.0 <2.0.0"
+
+office-ui-fabric-react@4.40.2-hotfix.1:
+  version "4.40.2-hotfix.1"
+  resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-4.40.2-hotfix.1.tgz#5565c76485fc8d2a678bda3911a19f39fe51ca0e"
+  integrity sha512-LRP/LCm5LQ0df8D6/xabTMCIQl/s51Z0kF802J2FG2h7QQ40xYOvLPmo8SGHGv9YyzMoWLtEEGAVxQElMWKBHw==
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.7.2"
+    "@uifabric/styling" ">=0.22.1 <1.0.0"
+    "@uifabric/utilities" ">=4.13.0 <5.0.0"
+    prop-types "^15.5.10"
+    tslib "^1.7.1"
 
 office-ui-fabric@2.6.1:
   version "2.6.1"
@@ -5856,6 +6152,15 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
+prop-types@^15.5.10:
+  version "15.8.1"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
+  integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.13.1"
+
 proxy-addr@~1.1.3, proxy-addr@~1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-1.1.4.tgz#27e545f6960a44a627d9b44467e35c1b6b4ce2f3"
@@ -5993,6 +6298,11 @@ react-dom@15.4.2:
     fbjs "^0.8.1"
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
+
+react-is@^16.13.1:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
 react@15.4.2:
   version "15.4.2"
@@ -6357,6 +6667,13 @@ rndm@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/rndm/-/rndm-1.2.0.tgz#f33fe9cfb52bbfd520aa18323bc65db110a1b76c"
 
+rtl-css-js@^1.1.3:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/rtl-css-js/-/rtl-css-js-1.16.1.tgz#4b48b4354b0ff917a30488d95100fbf7219a3e80"
+  integrity sha512-lRQgou1mu19e+Ya0LsTvKrVJ5TYUbqCVPAiImX3UfLTenarvPUl1QFdvu5Z3PYmHT9RCcwIfbjRQBntExyj3Zg==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+
 safe-buffer@^5.0.1, safe-buffer@~5.0.1:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.0.1.tgz#d263ca54696cd8a306b5ca6551e92de57918fbe7"
@@ -6385,6 +6702,11 @@ sax@0.5.2:
 sax@~1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.2.tgz#fd8631a23bc7826bef5d871bdb87378c95647828"
+
+scrollreveal@3.3.6:
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/scrollreveal/-/scrollreveal-3.3.6.tgz#659b7bf0ba0e244dced978ac5540c00b43773e4a"
+  integrity sha512-5HiAtVqwffX18w/kqXkD+S54A0MoE4xLAwQcszEYGuy+EsRUoHsw1BhFpxGCcbTXIy5HMtj/qmLDbpQ+J3llig==
 
 scss-tokenizer@^0.2.3:
   version "0.2.3"
@@ -7073,6 +7395,11 @@ try-json-parse@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/try-json-parse/-/try-json-parse-0.1.1.tgz#8db01622e877e51b83140caee7c80864ad390c82"
 
+tslib@^1.7.1:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
+  integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
+
 tslint-microsoft-contrib@4.0.0, tslint-microsoft-contrib@~4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-4.0.0.tgz#7e00a56c1417251d3f91a880efcc43361a69fb2a"
@@ -7158,6 +7485,11 @@ typedarray@~0.0.5:
 typescript@~2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.2.2.tgz#606022508479b55ffa368b58fee963a03dfd7b0c"
+
+ua-parser-js@^0.7.30:
+  version "0.7.40"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.40.tgz#c87d83b7bb25822ecfa6397a0da5903934ea1562"
+  integrity sha512-us1E3K+3jJppDBa3Tl0L3MOJiGhe1C6P0+nIvQAFYbxlMAx0h81eOwLmU57xgqToduDDPx3y5QsdjPfDu+FgOQ==
 
 ua-parser-js@^0.7.9:
   version "0.7.12"
@@ -7373,6 +7705,11 @@ validate-npm-package-license@^3.0.1:
 validator@^5.0.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/validator/-/validator-5.7.0.tgz#7a87a58146b695ac486071141c0c49d67da05e5c"
+
+validator@^8.0.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-8.2.0.tgz#3c1237290e37092355344fef78c231249dab77b9"
+  integrity sha512-Yw5wW34fSv5spzTXNkokD6S6/Oq92d8q/t14TqsS3fAiA1RYnxSFSIZ+CY3n6PGGRCq5HhJTSepQvFUS2QUDxA==
 
 validator@~3.22.2:
   version "3.22.2"
@@ -7609,11 +7946,11 @@ whatwg-fetch@0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-0.11.0.tgz#46b1d18d0aa99955971ef1a2f5aac506add28815"
 
-whatwg-fetch@>=0.10.0:
+whatwg-fetch@2.0.3, whatwg-fetch@>=0.10.0:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz#9c84ec2dcf68187ff00bc64e1274b442176e1c84"
 
-whatwg-url@~4.7.0:
+whatwg-url@4.7.1, whatwg-url@~4.7.0:
   version "4.7.1"
   resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-4.7.1.tgz#df4dc2e3f25a63b1fa5b32ed6d6c139577d690de"
   dependencies:
@@ -7865,3 +8202,14 @@ z-schema@~3.17.0:
   optionalDependencies:
     commander "^2.7.1"
     request "^2.54.0"
+
+z-schema@~3.18.3:
+  version "3.18.4"
+  resolved "https://registry.yarnpkg.com/z-schema/-/z-schema-3.18.4.tgz#ea8132b279533ee60be2485a02f7e3e42541a9a2"
+  integrity sha512-DUOKC/IhbkdLKKiV89gw9DUauTV8U/8yJl1sjf6MtDmzevLKOF2duNJ495S3MFVjqZarr+qNGCPbkg4mu4PpLw==
+  dependencies:
+    lodash.get "^4.0.0"
+    lodash.isequal "^4.0.0"
+    validator "^8.0.0"
+  optionalDependencies:
+    commander "^2.7.1"
