@@ -20,7 +20,7 @@
     "@types/react-dom": "0.14.18",
     "@types/webpack-env": ">=1.12.1 <1.14.0",
     "adal-angular": "1.0.12",
-    "react": "15.4.2",
+    "react": "15.7.0",
     "react-dom": "15.4.2"
   },
   "devDependencies": {
