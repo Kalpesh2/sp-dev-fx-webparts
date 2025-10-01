@@ -18,7 +18,7 @@
     "@types/webpack-env": "1.13.1",
     "office-ui-fabric-react": "5.132.0",
     "react": "16.7.0",
-    "react-addons-update": "^15.5.2",
+    "react-addons-update": "^15.6.3",
     "react-dom": "16.7.0"
   },
   "devDependencies": {
